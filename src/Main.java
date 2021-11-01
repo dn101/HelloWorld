@@ -5,8 +5,6 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-
-
         System.out.println("이 게임은 홀/짝 게임입니다. 게임을 시작하시겠습니까? Yes / No");
         String gameAnswer = "";
         gameAnswer = sc.next();
@@ -39,9 +37,5 @@ public class Main {
         } else {
             System.out.println("게임종료");
         }
-
-
-
-
     }
 }
